@@ -1,0 +1,143 @@
+*{
+    font-size: 15px;
+
+}
+#logo{
+    margin-left:40%;
+    margin-top:20px;
+     /* margin-bottom: -30px;  */
+    size:-20px;
+    /* height:5px;  */
+ }  
+ 
+
+h4{
+    text-align:left;
+    font-size:60px;
+    margin-top:10px;
+    
+}
+
+
+
+#input_container{
+    margin: auto;
+    height: 700px;
+    width:530px;
+    /* border: 1px red solid; */
+    display: flex;
+    justify-content: center;
+
+
+    
+}
+
+ 
+form>input{
+    margin-bottom: 20px;
+    margin-top: 5px;
+    height: 10%;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
+     border: 0px;
+    font-size: 15px;
+    width: 400px;
+    border-radius: 5px;
+    padding: 5px;
+    border:1px solid black;
+    font-weight:1px solid black;
+  }
+
+  
+
+#email{
+    height:60px;
+    width:500px;
+    margin-top:-20px;
+    font-size:20px;
+     /* row-gap:50px ;  */
+     margin-bottom:40px;
+     border-radius:10px;
+}
+#password{
+    font-size:20px;
+    height:60px;
+    width:500px;
+    margin-top:-80px;
+    margin-bottom:40px;
+    border-radius:10px;
+}
+
+.Checkbox{
+     height:100px;
+    width:130px; 
+    margin-right:50px;
+    margin-top:-20px;
+    font-size:5px;
+    color:rgb(77, 73, 73)
+
+
+}
+.checkbox>input{
+    width:70px;
+    height:70px;
+}
+ 
+
+p{
+    font-size: 19px;
+    margin-top:-40px;
+    /* width:400px; */
+    
+}
+
+#btn{
+    font-size:20px;
+    height:70px;
+    width:500px;
+    background-color:rgb(97, 120, 198);
+    margin-top:20px;
+    /* margin-left:30px; */
+     margin-bottom:40px;
+     font-size:20px;
+     border-radius:10px;
+     color:white;
+     border-radius:10px;
+
+     /* justify-content:center;
+     align-items:center; */
+
+} 
+
+h5{
+    font-size:15px;
+    text-align:center;
+    color:rgb(44, 38, 38)
+}
+
+
+
+
+
+.science{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-top: 40px;
+    gap:25px;
+
+
+}
+.science>img{
+    height:30px;
+    width:30px;
+    /* align-items:center;
+    justify-content:center; */
+   
+
+}
+
+
+#imgLogo{
+    height: 200px;
+    width: 200px;
+}

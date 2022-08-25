@@ -1,0 +1,454 @@
+*{
+    font-family: 'Lato', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+ #navbar{
+    width: 100%;
+    height: 80px;
+    margin: auto;
+    
+    border-bottom: 1px solid grey;
+    display: flex;
+
+}
+#navbar>img{
+    width: 20%;
+    height: 30px;
+    margin: 30px 0 0 90px;
+    cursor: pointer;
+    
+}
+#navbar>h2{
+    font-size: 14px;
+    margin-top: 35px;
+    margin-left: -65px;
+    color: rgba(96, 93, 93, 0.467);
+    cursor: pointer;
+}
+#navbar>h2:hover{
+    color: blue;
+}
+ #selectTag{
+     width: 2%;
+    margin-top: 5px;
+    border: 0px;
+    float: right;
+    cursor: pointer;
+    
+}
+#selectTag:hover{
+    color: blue;
+}
+
+#selectBox{
+    width:40%;
+    height: 200px;
+   
+}
+.selectInside{
+    font-size: 18px;
+    line-height: 15px;
+    cursor: pointer;
+}
+
+
+.navbarClass{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    margin-left: 450px;
+     
+    
+}
+
+.navbarClass>p{
+    padding: 15px;
+    cursor: pointer; 
+}
+.navbarClass>p:hover{
+    color: blue;
+}
+
+
+ #header{
+    width: 80%;
+    height: auto;
+    border: 1px solid grey;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+#headerInsid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid grey;
+    margin:0 50px;
+    
+}
+#headerInsid>p{
+    padding: 10px;
+    cursor: pointer;   
+    
+    
+}
+#headerInsid>p:hover{
+    text-decoration: underline;
+    color: blue;
+}
+.buttonClass{
+    margin-left: 35px;
+   
+}
+#firstButton{
+    width: 50%;
+    height: 50px;
+    margin-right:10px;
+    border-radius: 15px;
+    border: 1px solid grey;
+    background-color: white;
+    cursor: pointer;
+    
+}
+#secondButton{
+width: 22%;
+height:50px ;
+margin-right:10px;
+border-radius: 15px;
+border: 1px solid grey;
+background-color: white;
+margin-top: 50px;
+cursor: pointer;
+
+}
+
+#thirdButton{
+width: 22%;
+height:50px;
+border-radius: 15px;
+border: 1px solid grey;
+background-color: white;
+cursor: pointer;
+}
+.iconPic1{
+    margin-top: 15px;
+   font-size: 20px;
+    float: left;
+   ;
+    
+}
+.check1{
+    float: left;
+    font-size: 20px;
+   margin-top: 13px;
+   margin-left: 5px;
+   
+}
+.iconPic{
+    float: left;
+    font-size: 25px;
+    margin-top: 10px;
+    
+}
+.check{
+    float: left;
+    margin-top: 1px;
+    font-size: 15px;
+    margin-left: 10px;
+}
+.date{
+    float: left;
+   margin-left: -50px;
+    padding-top: 2px;
+    font-size: 17px;
+}
+.checkBox{
+    margin-left: 40px;
+    margin-top: 10px;
+    
+}
+.checkElem{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    margin-top: -3px;
+    padding-right: 30px;
+    cursor: pointer;
+}
+.checkElem2{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.checkBox>label{
+    
+    padding:0 100px 0 0;
+    font-size: 18px;
+    color: grey;
+}
+#mainButton{
+    width: 15%;
+    height: 45px;
+    margin: 50px 0 20px 480px;
+    font-size: 20px;
+    background-color: blue;
+    color: white;
+    border: 0px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#Box{
+    width: 80%;
+    height: 600px;
+    margin: auto;
+    margin-top: 15px;
+    background-image: url("https://a.travel-assets.com/travel-assets-manager/cmct-4862/POSa-HP-Hero-928x398.jpg"); 
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+#Box>h1{
+    padding-top: 120px;
+    margin-left: 30px;
+    color: white;
+    font-size: 35px;
+}
+#Box>h1+p{
+    color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 18px;
+    
+}
+#buttonBox{
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 18%;
+    height: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: blue;
+    color: whitesmoke;
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+h1{
+    margin-left: 147px;
+    margin-top: 35px;
+    font-size: 25px;
+}
+
+#innerBox{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(1,auto);
+    gap: 10px;
+    width: 80%;
+    margin: auto;
+}
+#innerBox > div{
+    border: 1px solid grey;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+.fontIcon{
+    float: right;
+    padding-right: 10px;
+}
+.buttonborder
+{
+    border-bottom: 2px solid grey;
+    border-width: 60%;
+    text-align:center;
+}
+
+.targetTrip{
+    margin-left: 10px;
+    color: rgb(2, 2, 2);
+    font-size: 22px;
+}
+h2+p{
+   padding-left: 10px;
+    
+}
+#middleBox{
+    width: 80%;
+    height: 200px;
+    border: 1px solid grey;
+    margin: auto;
+    margin-top: 70px;
+    display: flex;
+    border-radius: 10px;
+    
+}
+ #box1{
+    width: 55%;
+    height: 200px;
+    display: flex;
+   
+}
+#box1 > img{
+    width: 100%;
+    height: 200px;
+    cursor: pointer;
+}
+#box2{
+    width: 45%;
+    height: 200px;
+    cursor: pointer;
+}
+#box2>img{
+
+padding-left: 10px;
+padding-top: 20px;
+font-weight: 20px;
+
+
+}
+#box2>img+h2{
+    padding-left:10px ;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+#bottomImg{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(1,auto);
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    gap: 20px;
+    
+}
+#bottomImg>div{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    
+    
+    border-radius: 10px;
+}
+#bottomImg>div>img{
+    width: 100%;
+    height: 290px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+img+p{
+    margin-top: 5px;
+    font-size: 15px;
+    color: gray;
+}
+#bottomImg>div>p+p{
+    margin-top: 4px;
+    font-size: 18px;
+}
+
+     #container{
+       
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(1,auto);
+        gap:20px;
+         width: 80%;
+         margin: auto;
+         margin-top: 30px;
+         cursor: pointer;
+        
+    }
+    #container>div>img{
+        width: 100%;
+        border-radius: 10px;
+        
+    }
+    #container>div>img+p{
+        padding-left: 10px;
+    }
+    p+p{
+        padding-left: 10px;
+    }
+    .lastClass{
+        width: 80%;
+        height: auto;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .lastClass>p{
+        text-align: center;
+      
+    }
+    .lastClass>p+h3{
+        text-align: center;
+        margin-top: -10px;
+        color: blue;
+        font-size: 13px;
+        cursor: pointer;
+    }
+    .lastClass>p+h3:hover{
+        text-decoration: underline;
+    }
+
+    #footer{
+        width: 80%;
+        height: auto;
+       
+        margin: auto;
+        margin-top: 60px;
+        display: flex;
+        border-bottom: 1px solid grey;
+    }
+    #firstBox{
+        width: 20%;
+        height: auto;
+       
+    }
+    #firstBox>img{
+        margin-left: 15px;
+        margin-top: 25px;
+        cursor: pointer;
+    }
+    #secondBox{
+        width: 80%;
+        height: auto;
+        
+    }
+   
+    #tableHead{
+        display: flex;
+    }
+   
+    #tableRow>th{
+       
+        margin-right: 100px;
+       
+        padding: 30px;
+        padding-left: 30px;
+        color: black;
+    }
+   #bottomItems>td{
+       font-size: 15px;
+       padding-left: 40px;
+       padding-top: 10px;
+       color: blue;
+       cursor: pointer;
+      
+   }
+   #bottomItems>td:hover{
+       text-decoration: underline;
+   }
+    
+    
+     
+
+
+
+
+
+

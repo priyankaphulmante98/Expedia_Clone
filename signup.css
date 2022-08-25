@@ -1,0 +1,127 @@
+*{
+    font-size: 15px;
+    /* font-weight: bold; */
+}
+#logo{
+    margin-left:40%;
+    margin-top:20px;
+     /* margin-bottom: -30px;  */
+    size:-20px;
+    /* height:5px;  */
+ }  
+ 
+
+h4{
+    text-align:left;
+    font-size:40px;
+    margin-top:10px;
+    
+}
+
+
+#input_container{
+    margin: auto;
+    height: 800px;
+    width:500px;
+    /* border: 1px red solid; */
+    display: flex;
+    justify-content: center;
+}
+
+ 
+  form>input{
+    margin-bottom: 20px;
+    margin-top: 5px;
+    height: 10%;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
+     border: 0px;
+    font-size: 15px;
+    width: 400px;
+    border-radius: 5px;
+    padding: 5px;
+     border:1px solid black; 
+    font-weight:1px solid black;
+  }
+
+  
+
+#email{
+    height:50px;
+    width:500px;
+    margin-top:-200px;
+     /* row-gap:50px ;  */
+     margin-bottom:40px;
+     border-radius:10px;
+     /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+    }
+
+#name{
+    height:50px;
+    width:500px;
+    margin-top:-80px;
+    margin-bottom:40px;
+    border-radius:10px;
+}
+#surname{
+    height:50px;
+    width:500px;
+    margin-top:-80px;
+    margin-bottom:40px;
+    border-radius:10px;
+}
+
+#password{
+    height:50px;
+    width:500px;
+    margin-top:-80px;
+    margin-bottom:40px;
+    border-radius:10px;
+}
+
+
+
+div>Checkbox{
+    height:80px;
+    width:60px;
+    margin-right:50px;
+    margin-top:-20px;
+    font-size:5px;
+    color:rgb(77, 73, 73);
+    /* border:1px solid red; */
+    text-align: justify;
+
+
+}
+
+p{
+    font-size: 19px;
+    
+    
+}
+
+#btn{
+   
+    height:70px;
+    width:500px;
+    background-color:rgb(97, 120, 198);
+    margin-top:20px;
+    /* margin-left:30px; */
+     margin-bottom:40px;
+     font-size:20px;
+     border-radius:10px;
+     color:white;
+     /* justify-content:center;
+     align-items:center; */
+
+} 
+
+h5{
+    font-size:15px;
+    text-align:center;
+    color:rgb(44, 38, 38)
+}
+
+
+
+
+       
